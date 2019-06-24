@@ -17,7 +17,7 @@ public class Wall {
 	int x = 50;
 	int y = 50;
 
-	public Wall(Game game) {// / گرفتن عکس از هارد برای دیوار
+	public Wall(Game game) {
 		this.game = game;
 		try {
 			wall = ImageIO.read(new File("wall.png"));
@@ -36,7 +36,7 @@ void move(int h){
 	
 	
 }
-	public void paint(Graphics td) {// رسم دیوار در پنل
+	public void paint(Graphics td) {
 
 		Graphics2D g = (Graphics2D) td;
 
